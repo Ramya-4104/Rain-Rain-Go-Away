@@ -1,0 +1,7 @@
+This project aims to design an automated wiper control system that detects rain using a resistive rain sensor and adjusts the speed of a DC motor accordingly. The system works on four discrete speed levels based on rainfall intensity and uses analog signal processing combined with Arduino for control.
+
+The core functionality includes a comparator network that converts the sensor’s analog signal into a 4-bit digital output. This output is passed through a DAC (Digital-to-Analog Converter) built using a summing amplifier to produce four different analog voltages. These voltages are compared with a triangle wave to generate PWM signals, which control the speed of the wiper motor.
+
+To ensure proper wiper movement, limit switches are used to reverse the direction at 0° and 180°. A servo motor is also used to visually indicate the current wiper speed level, mapped directly to the binary output.
+
+The system is built using components like Arduino UNO, op-amps, motor driver, rain sensor, LEDs, resistors, and capacitors. Simulations were carried out using LTSpice, and the full working prototype has been practically implemented.
