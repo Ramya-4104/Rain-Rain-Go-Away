@@ -1,3 +1,5 @@
+Rain Rain Go Away - Smart Rain Detection & Wiper Control System
+
 Project Overview:
 
 This project aims to design an automated wiper control system that detects rain using a resistive rain sensor and adjusts the speed of a DC motor accordingly. The system works on four discrete speed levels based on rainfall intensity and uses analog signal processing combined with Arduino for control.
